@@ -8,7 +8,7 @@ body {
   color: #253238;
 }
 header {
-  background: linear-gradient(120deg, #800000, #FFFFFF);
+  background: linear-gradient(120deg, #005A9C, #808080, #ff4f00);
   color: #fff;
   padding: 60px 20px;
   text-align: center;
@@ -34,4 +34,23 @@ footer {
   text-align: center;
   background: #e8edf4;
   font-size: 0.9rem;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333aa;
+  display: flex;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111111;
 }
