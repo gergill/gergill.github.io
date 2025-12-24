@@ -42,6 +42,7 @@ nav ul {
   padding: 0;
   background-color: #333333aa;
   display: flex;
+  flex-direction:row;
 }
 
 nav ul li a {
